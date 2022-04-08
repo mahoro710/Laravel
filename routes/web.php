@@ -11,4 +11,6 @@
 |
 */
 
-Route::get('/posts','PostController@index');
+Route::get('/posts','index.blade@index')
+
+;
