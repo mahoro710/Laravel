@@ -11,5 +11,14 @@ use illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/','PostController@index');
+
 Route::get('/posts/{post}','PostController@show');
+=======
+Route::get('/',function(){
+    return view('index');
+});
+
+Route::get('/posts','PostController@index')
+
+;
+
