@@ -12,12 +12,12 @@
             <div class="title"> 
             <h2>タイトル</h2>
             
-            <input type="text" name="title" id="title" placeholder="タイトルを入力する" required>
-        
+            <input type="text" name="post[title]"  placeholder="タイトルを入力する" required>
+        </div>
        　
-       　<div class="content">
+       　<div class="body">
        　<h2>本文</h2>
-         <textarea name="content" id="content" type="text" placeholder="本文を入力する" required>
+         <textarea name="post[body]" placeholder="本文を入力する" required>
           </textarea>
           </div> 
           
