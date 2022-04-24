@@ -15,6 +15,7 @@ use App\Http\Controllers\RequestPostRequest;
 |
 */
 
+
 Route::get('/','PostController@index');
 Route::get('/posts/create','PostController@create');
 Route::get('/posts/{post}','PostController@show');
@@ -29,3 +30,4 @@ Route::get('/categories/{category}', 'CategoryController@index');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+

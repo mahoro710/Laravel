@@ -24,6 +24,7 @@ class PostController extends Controller
 {
     return view('posts/index')->with(['posts' => $post->getPaginateByLimit()]);
 
+
 }
 
   /*public function create()
@@ -35,6 +36,7 @@ class PostController extends Controller
     {
         return view ('posts/show')->with(['post'=>$post]);
     }
+
 
    
   
@@ -71,3 +73,4 @@ public function delete(Post $post)
 
 
 }
+
